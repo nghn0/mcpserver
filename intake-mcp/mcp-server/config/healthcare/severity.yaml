@@ -1,0 +1,78 @@
+severity_rules:
+  critical:
+    score: 10
+    keywords:
+      - chest pain
+      - chest tightness
+      - shortness of breath
+      - heavy bleeding
+      - unconscious
+      - collapse
+      - seizure
+      - stroke
+      - heart attack
+      - overdose
+      - severe pain
+      - trauma
+      - accident
+      - burn
+
+  high:
+    score: 7
+    keywords:
+      - high fever
+      - severe headache
+      - vomiting
+      - dehydration
+      - infection
+      - dizziness
+      - fracture
+      - broken bone
+      - sprain
+      - wound
+      - cut
+      - kidney stone
+      - labor pain
+      - suicidal
+
+  medium:
+    score: 4
+    keywords:
+      - fever
+      - cough
+      - cold
+      - sore throat
+      - headache
+      - nausea
+      - stomach pain
+      - refill
+      - prescription
+      - appointment
+      - blood test
+      - urine test
+      - x-ray
+      - mri
+      - ct scan
+      - ultrasound
+      - diabetes
+      - hypertension
+      - asthma
+      - thyroid
+
+  low:
+    score: 2
+    keywords:
+      - bill
+      - billing
+      - insurance
+      - claim
+      - payment
+      - refund
+      - medical records
+      - discharge summary
+      - documents
+      - information
+      - help
+      - query
+      - question
+      - support

@@ -1,0 +1,181 @@
+{
+    "taxonomy": [
+      {
+        "id": "emergency",
+        "keywords": [
+          "chest pain",
+          "chest tightness",
+          "shortness of breath",
+          "bleeding",
+          "heavy bleeding",
+          "unconscious",
+          "fainting",
+          "collapse",
+          "seizure",
+          "stroke",
+          "heart attack",
+          "severe pain",
+          "trauma",
+          "accident",
+          "burn",
+          "overdose",
+          "emergency",
+          "kidney stone"
+        ]
+      },
+      {
+        "id": "urgent_care",
+        "keywords": [
+          "high fever",
+          "severe headache",
+          "vomiting",
+          "dehydration",
+          "infection",
+          "dizziness",
+          "fracture",
+          "broken bone",
+          "sprain",
+          "wound",
+          "cut",
+          "urgent"
+        ]
+      },
+      {
+        "id": "general_consultation",
+        "keywords": [
+          "fever",
+          "cough",
+          "cold",
+          "sore throat",
+          "headache",
+          "body pain",
+          "weakness",
+          "fatigue",
+          "nausea",
+          "stomach pain",
+          "illness"
+        ]
+      },
+      {
+        "id": "refill",
+        "keywords": [
+          "refill",
+          "prescription",
+          "medication",
+          "medicine",
+          "drug",
+          "tablets",
+          "dosage"
+        ]
+      },
+      {
+        "id": "appointment",
+        "keywords": [
+          "appointment",
+          "schedule",
+          "reschedule",
+          "cancel appointment",
+          "booking",
+          "consultation slot"
+        ]
+      },
+      {
+        "id": "lab_tests",
+        "keywords": [
+          "blood test",
+          "urine test",
+          "x-ray",
+          "mri",
+          "ct scan",
+          "ultrasound",
+          "lab report",
+          "test results"
+        ]
+      },
+      {
+        "id": "chronic_care",
+        "keywords": [
+          "diabetes",
+          "blood pressure",
+          "hypertension",
+          "asthma",
+          "thyroid",
+          "arthritis",
+          "cholesterol",
+          "chronic"
+        ]
+      },
+      {
+        "id": "mental_health",
+        "keywords": [
+          "anxiety",
+          "depression",
+          "panic",
+          "stress",
+          "insomnia",
+          "suicidal",
+          "mental health",
+          "therapy",
+          "counseling"
+        ]
+      },
+      {
+        "id": "maternity",
+        "keywords": [
+          "pregnancy",
+          "pregnant",
+          "labor pain",
+          "delivery",
+          "prenatal",
+          "postnatal",
+          "gynecology"
+        ]
+      },
+      {
+        "id": "pediatric",
+        "keywords": [
+          "child",
+          "baby",
+          "infant",
+          "newborn",
+          "pediatric",
+          "vaccination",
+          "immunization"
+        ]
+      },
+      {
+        "id": "billing",
+        "keywords": [
+          "bill",
+          "billing",
+          "insurance",
+          "claim",
+          "payment",
+          "charges",
+          "refund"
+        ]
+      },
+      {
+        "id": "medical_records",
+        "keywords": [
+          "medical records",
+          "reports",
+          "discharge summary",
+          "documents",
+          "history",
+          "records"
+        ]
+      },
+      {
+        "id": "general_inquiry",
+        "keywords": [
+          "information",
+          "help",
+          "query",
+          "question",
+          "support"
+        ]
+      }
+    ]
+  }
+  

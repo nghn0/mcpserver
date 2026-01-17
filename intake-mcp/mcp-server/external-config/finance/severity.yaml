@@ -1,0 +1,97 @@
+severity_rules:
+  critical:
+    score: 10
+    keywords:
+      - account hacked
+      - hacked
+      - compromised
+      - identity theft
+      - unauthorized transaction
+      - unauthorized transfer
+      - fraud
+      - fraudulent
+      - scam
+      - phishing
+      - otp scam
+      - money stolen
+      - money is gone
+      - card stolen
+      - stolen card
+      - suspicious activity
+      - upi fraud
+      - netbanking hacked
+      - password leaked
+      - large transfer
+      - huge amount deducted
+
+  high:
+    score: 8
+    keywords:
+      - money deducted
+      - money debited
+      - payment failed but money deducted
+      - pending transaction
+      - refund pending
+      - reversal pending
+      - chargeback pending
+      - wrong transfer
+      - sent to wrong person
+      - atm cash not received
+      - cash not received
+      - atm dispute
+      - card blocked
+      - card declined
+      - account locked
+      - otp not received
+      - unable to login
+      - cant login
+      - emi overdue
+      - missed emi
+      - loan emi bounced
+      - payment overdue
+
+  medium:
+    score: 5
+    keywords:
+      - kyc update
+      - kyc pending
+      - kyc rejected
+      - update pan
+      - update aadhaar
+      - address update
+      - mobile number update
+      - email update
+      - name correction
+      - loan application
+      - loan rejected
+      - disbursement delayed
+      - interest rate
+      - processing fee
+      - credit limit
+      - increase limit
+      - statement download
+      - transaction history
+      - beneficiary add
+      - beneficiary not added
+      - international transactions
+      - card activation
+      - card delivery
+
+  low:
+    score: 2
+    keywords:
+      - charges
+      - fees
+      - annual fee
+      - gst charged
+      - service charge
+      - how to
+      - guide
+      - customer care
+      - branch timings
+      - nearest branch
+      - account statement
+      - mini statement
+      - ifsc
+      - swift code
+      - general inquiry

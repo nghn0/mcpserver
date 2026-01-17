@@ -1,0 +1,5 @@
+fastmcp
+pyyaml
+python-dotenv
+httpx
+starlette

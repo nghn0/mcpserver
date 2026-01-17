@@ -1,0 +1,70 @@
+{
+  "default_destination": "Banking_General_Queue",
+  "severity_override": {
+    "min_score": 9,
+    "destination": "Fraud_Response_Team",
+    "priority": "HIGH"
+  },
+  "routes": [
+    {
+      "category": "fraud_suspicious_activity",
+      "threshold": 9,
+      "destination": "Fraud_Response_Team"
+    },
+    {
+      "category": "account_access_login",
+      "threshold": 7,
+      "destination": "Account_Security_Support"
+    },
+    {
+      "category": "upi_payments_transfer",
+      "threshold": 7,
+      "destination": "Payments_Dispute_Team"
+    },
+    {
+      "category": "atm_cash_withdrawal",
+      "threshold": 7,
+      "destination": "ATM_Dispute_Cell"
+    },
+    {
+      "category": "card_issues",
+      "threshold": 5,
+      "destination": "Card_Services_Desk"
+    },
+    {
+      "category": "fees_charges_disputes",
+      "threshold": 4,
+      "destination": "Billing_Charges_Resolution"
+    },
+    {
+      "category": "loan_services",
+      "threshold": 5,
+      "destination": "Loan_Support_Desk"
+    },
+    {
+      "category": "investment_trading",
+      "threshold": 5,
+      "destination": "Investments_Trading_Support"
+    },
+    {
+      "category": "kyc_account_update",
+      "threshold": 4,
+      "destination": "KYC_Verification_Team"
+    },
+    {
+      "category": "statements_documents",
+      "threshold": 2,
+      "destination": "Statements_Documents_Desk"
+    },
+    {
+      "category": "merchant_payment_pos",
+      "threshold": 5,
+      "destination": "Merchant_Payments_Support"
+    },
+    {
+      "category": "general_inquiry",
+      "threshold": 1,
+      "destination": "Banking_General_Queue"
+    }
+  ]
+}

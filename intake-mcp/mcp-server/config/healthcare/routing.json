@@ -1,0 +1,76 @@
+{
+    "default_destination": "General_Queue",
+    "severity_override": {
+      "min_score": 9,
+      "destination": "ER_Triage",
+      "priority": "HIGH"
+    },
+    "routes": [
+      {
+        "category": "emergency",
+        "threshold": 9,
+        "destination": "ER_Triage"
+      },
+      {
+        "category": "urgent_care",
+        "threshold": 7,
+        "destination": "Urgent_Care"
+      },
+      {
+        "category": "general_consultation",
+        "threshold": 5,
+        "destination": "General_Physician"
+      },
+      {
+        "category": "refill",
+        "threshold": 4,
+        "destination": "Pharmacy"
+      },
+      {
+        "category": "appointment",
+        "threshold": 3,
+        "destination": "Appointments_Desk"
+      },
+      {
+        "category": "lab_tests",
+        "threshold": 3,
+        "destination": "Laboratory"
+      },
+      {
+        "category": "chronic_care",
+        "threshold": 4,
+        "destination": "Chronic_Care_Clinic"
+      },
+      {
+        "category": "mental_health",
+        "threshold": 7,
+        "destination": "Mental_Health_Services"
+      },
+      {
+        "category": "maternity",
+        "threshold": 6,
+        "destination": "Maternity_Care"
+      },
+      {
+        "category": "pediatric",
+        "threshold": 5,
+        "destination": "Pediatrics"
+      },
+      {
+        "category": "billing",
+        "threshold": 2,
+        "destination": "Billing_Department"
+      },
+      {
+        "category": "medical_records",
+        "threshold": 2,
+        "destination": "Medical_Records"
+      },
+      {
+        "category": "general_inquiry",
+        "threshold": 1,
+        "destination": "General_Queue"
+      }
+    ]
+  }
+  
