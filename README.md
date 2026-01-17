@@ -1,6 +1,6 @@
 # Intelligent Intake and Triage MCP Server
 
-This project focuses on building and containerizing a **Model Context Protocol (MCP) server** for a **Healthcare Intelligent Intake and Triage system**, including integration with LLM providers like **Gemini**.
+This project focuses on building and containerizing a **Model Context Protocol (MCP) server** for a **Intelligent Intake and Triage system**, including integration with LLM providers like **Gemini**.
 
 ---
 
@@ -10,8 +10,8 @@ This project focuses on building and containerizing a **Model Context Protocol (
 Create the main project and server directories:
 
 ```bash
-mkdir healthcare-intake-mcp
-cd healthcare-intake-mcp
+mkdir intake-mcp
+cd intake-mcp
 mkdir mcp-server
 cd mcp-server
 ```
@@ -34,7 +34,7 @@ touch config/healthcare/routing.json
 Create the main Python server file and the requirements list:
 
 ```bash
-touch healthcare_mcp_server.py
+touch mcp_server.py
 touch requirements.txt
 ```
 
@@ -55,7 +55,7 @@ Install the required packages and run the server:
 
 ```bash
 pip install -r requirements.txt
-python healthcare_mcp_server.py
+python mcp_server.py
 ```
 
 ✅ Expected Log:
@@ -211,15 +211,17 @@ python intake_mcp_client.py
 ## 📁 Final Project Structure
 
 ```txt
-healthcare-intake-mcp/
+intake-mcp/
 ├── mcp-server/
 │   ├── config/healthcare/
 │   │   ├── taxonomy.json
 │   │   ├── severity.yaml
 │   │   └── routing.json
 │   ├── external-config/
+│   │   ├── healthcare/
+│   │   └── finance/
 │   ├── Dockerfile
-│   ├── healthcare_mcp_server.py
+│   ├── mcp_server.py
 │   └── requirements.txt
 └── mcp-client/
     ├── intake_mcp_client.py
