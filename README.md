@@ -1,6 +1,10 @@
 # Intelligent Intake and Triage MCP Server
 
-This project focuses on building and containerizing a **Model Context Protocol (MCP) server** for a **Intelligent Intake and Triage system**, including integration with LLM providers like **Gemini**.
+This project builds and containerizes a **Model Context Protocol (MCP) server** for an **Intelligent Intake and Triage system**.  
+It supports **dynamic routing, severity scoring, and category classification** using configurable rules, with optional integration to LLM providers like **Gemini** for smarter intake understanding.
+
+The server is designed for **multi-industry usage** (Healthcare, Finance, E-commerce) by switching configuration folders at runtime using environment variables and Docker volume mounts.
+
 
 ---
 
