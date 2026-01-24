@@ -227,3 +227,23 @@ intake-mcp/
     ├── intake_mcp_client.py
     └── requirements.txt
 ```
+---
+
+## 🤖 Intelligent Intake & Triage Demos
+
+The MCP Server dynamically routes and processes data based on the domain. Below are examples of the server handling high-stakes intake in two different sectors.
+
+<p align="center">
+  <img src="images/healthcareintake.png" width="48%" alt="Healthcare Intake Demo" />
+  <img src="images/financeintake.png" width="48%" alt="Finance Intake Demo" />
+</p>
+
+<p align="center">
+  <strong>🏥 Healthcare Intake</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>💰 Finance Intake</strong>
+</p>
+
+<p align="center">
+  <em>The MCP server identifies document types, extracts key entities, and assigns priority levels (Triage) in real-time.</em>
+</p>
+
+---
