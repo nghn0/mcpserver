@@ -1,5 +1,7 @@
 # Intelligent Intake and Triage MCP Server
 
+<p align="left"> <img src="https://img.shields.io/badge/Protocol-MCP-green?style=flat-square" alt="MCP"> <img src="https://img.shields.io/badge/AI-Gemini%20Integration-blue?style=flat-square" alt="Gemini"> <img src="https://img.shields.io/badge/Container-Docker-2496ED?style=flat-square" alt="Docker"> <img src="https://img.shields.io/badge/Industry-Multi--Domain-orange?style=flat-square" alt="Multi-Domain"> </p>
+
 This project builds and containerizes a **Model Context Protocol (MCP) server** for an **Intelligent Intake and Triage system**.  
 It supports **dynamic routing, severity scoring, and category classification** using configurable rules, with optional integration to LLM providers like **Gemini** for smarter intake understanding.
 
